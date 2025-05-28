@@ -5,6 +5,8 @@
 
 ms-course is a microservice back-end RESTful API project, from the course [DevSuperior](www.udemy.com/course/microsservicos-java-spring-cloud/).
 
+The link for the teachers git [Teachers Project](https://github.com/acenelio/ms-course?tab=readme-ov-file).
+
 The application deals with workers and their payments using very basic logic, since the main focus of the course and project was to learn about Spring Cloud and microservices architecture.
 
 ![image](https://github.com/user-attachments/assets/ca96bb99-5ca1-42fc-abf1-83d337439698)
