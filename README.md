@@ -1,42 +1,28 @@
-# ms-course
+# ms-email-sender
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GabrielNZ/ms-course/blob/main/LICENSE)
 
 # About the project
 
-ms-course is a microservice back-end RESTful API project, from the course [DevSuperior](www.udemy.com/course/microsservicos-java-spring-cloud/).
+ms-email-sender is a backend microservice RESTful API project.
 
-The link for the teachers git [Teachers Project](https://github.com/acenelio/ms-course?tab=readme-ov-file).
+The application sends emails to every user registered in the API and then saves each email in a database.
 
-The application deals with workers and their payments using very basic logic, since the main focus of the course and project was to learn about Spring Cloud and microservices architecture.
+The main focus of this project was the implementation of RabbitMQ and messaging technologies, which is why the project isn't that complex.
 
-![image](https://github.com/user-attachments/assets/ca96bb99-5ca1-42fc-abf1-83d337439698)
-
-Since the course is a little outdated, I updated some of the technologies used in it:
-
-- Hystrix --> Resliience4J
-- Ribbon --> Spring Cloud Load Balancer
-- Zuul   --> Spring Cloud Gateway
-
-![image](https://github.com/user-attachments/assets/23f71640-1f17-4698-abf9-979ebf9db78e)
 
 # Tecnologies
 ## Back end
 - Java
 - Spring Boot
 - Spring Web
-- Spring Security
-- JWT Token
-- Spring Cloud
-  - Eureka Server / Eureka Client
-  - Spring Cloud Gateway
-  - OpenFeign
-  - Resliience4J
-  - Spring Cloud Config Server
 - JPA / Hibernate
 - Maven
 ## Implementation
-- InMemoryDataBase: H2
-- Docker
+- DataBase: PostgreSQL
+- Messaging
+  - RabbitMQ
+  - AMQP
+- JavaMailSender
 # Autor
 
 Gabriel Nicolodi Zimmermann
